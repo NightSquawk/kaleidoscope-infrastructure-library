@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "generic-pdu-0u",
+  "name": "Generic vertical PDU",
+  "accuracy": "illustrative",
+  "license": "CC0-1.0",
+  "dimensions": {
+    "heightU": 0,
+    "widthMm": 60,
+    "depthMm": 60,
+    "heightMm": 1100
+  },
+  "mounting": "vertical-0u",
+  "faces": {
+    "front": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/pdu-0u/front.svg",
+      "viewBox": [
+        0,
+        0,
+        200,
+        1200
+      ]
+    },
+    "rear": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/pdu-0u/rear.svg",
+      "viewBox": [
+        0,
+        0,
+        200,
+        1200
+      ]
+    }
+  },
+  "ports": [
+    {
+      "id": "OUT-1",
+      "label": "OUT-1",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 55,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-2",
+      "label": "OUT-2",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 185,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-3",
+      "label": "OUT-3",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 315,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-4",
+      "label": "OUT-4",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 445,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-5",
+      "label": "OUT-5",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 575,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-6",
+      "label": "OUT-6",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 705,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-7",
+      "label": "OUT-7",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 835,
+        "width": 70,
+        "height": 42
+      }
+    },
+    {
+      "id": "OUT-8",
+      "label": "OUT-8",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "front",
+      "bounds": {
+        "x": 65,
+        "y": 965,
+        "width": 70,
+        "height": 42
+      }
+    }
+  ]
+}

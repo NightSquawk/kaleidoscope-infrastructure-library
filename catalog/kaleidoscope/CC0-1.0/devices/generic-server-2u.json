@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "generic-server-2u",
+  "name": "Generic 2U server",
+  "accuracy": "illustrative",
+  "license": "CC0-1.0",
+  "dimensions": {
+    "heightU": 2,
+    "widthMm": 482.6,
+    "depthMm": 700,
+    "heightMm": 88.9
+  },
+  "mounting": "rack",
+  "faces": {
+    "front": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/server-2u/front.svg",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        180
+      ]
+    },
+    "rear": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/server-2u/rear.svg",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        180
+      ]
+    }
+  },
+  "ports": [
+    {
+      "id": "USB-F1",
+      "label": "USB-F1",
+      "connector": "usb-a",
+      "role": "usb",
+      "face": "front",
+      "bounds": {
+        "x": 870,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "NIC-1",
+      "label": "NIC-1",
+      "connector": "rj45",
+      "role": "network",
+      "face": "rear",
+      "bounds": {
+        "x": 260,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "NIC-2",
+      "label": "NIC-2",
+      "connector": "rj45",
+      "role": "network",
+      "face": "rear",
+      "bounds": {
+        "x": 340,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "MGMT",
+      "label": "MGMT",
+      "connector": "rj45",
+      "role": "network",
+      "face": "rear",
+      "bounds": {
+        "x": 420,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "VGA",
+      "label": "VGA",
+      "connector": "vga",
+      "role": "video",
+      "face": "rear",
+      "bounds": {
+        "x": 510,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "USB-R1",
+      "label": "USB-R1",
+      "connector": "usb-a",
+      "role": "usb",
+      "face": "rear",
+      "bounds": {
+        "x": 590,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "PSU-A",
+      "label": "PSU-A",
+      "connector": "iec-c14",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 720,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "PSU-B",
+      "label": "PSU-B",
+      "connector": "iec-c14",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 820,
+        "y": 65,
+        "width": 60,
+        "height": 36
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "allowedLicenses": [
+    "CC0-1.0",
+    "Apache-2.0"
+  ],
+  "manifestLicense": "CC0-1.0",
+  "unknownLicenseAction": "block"
+}
