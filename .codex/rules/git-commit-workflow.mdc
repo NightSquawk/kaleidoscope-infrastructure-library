@@ -1,0 +1,36 @@
+---
+description: "Branching, releases, and scoped commits"
+alwaysApply: true
+---
+
+# Git workflow
+
+## Branches
+
+| Branch | Role | How it changes |
+|---|---|---|
+| `develop` | Default and integration branch. Always holds the latest accepted work. | Pull requests from focused feature branches. |
+| `main` | Latest released library. Consumers that pin to a stable state read from here. | Merge `develop` into `main` when cutting a release; tag the merge. |
+
+- Branch from `develop` (`feat/...`, `fix/...`, `docs/...`, `chore/...`) and open the pull request against `develop`. Never commit directly to `main`.
+- Release by merging `develop` into `main` and tagging `vX.Y.Z` on `main`. Add `vX.Y` patch branches only once an older release actually needs a fix; do not create them in advance.
+- Never force-push `main`, `develop`, or a tag. Prefer merge commits; do not rewrite published history.
+- Keep one contribution scope per pull request: one device family, one connector set, or one upstream import. Tooling, schema, or licensing changes may span the catalog when required; explain the scope.
+
+## Commits
+
+- Inspect `git status --short`, the current branch, and the index before editing or committing. Preserve unrelated work.
+- Run the checks in `validation-and-evidence.mdc` before committing. Never commit a tree that fails `tooling/validate.py`.
+- One logical change per commit, with Conventional Commit subjects: `<type>(<scope>): <description>`.
+  - Types: `feat`, `fix`, `refactor`, `perf`, `chore`, `docs`, `test`.
+  - Scopes: `catalog`, `connectors`, `artwork`, `upstream`, `schema`, `tooling`, `tests`, `licensing`, `ci`, `docs`, `rules`.
+- Stage only when ready to commit. Write the message to a file outside the repository (the validator rejects unregistered files), then scope BOTH commands to your explicit paths:
+
+  ```bash
+  git add -- <your-paths>
+  git commit -F <message-file> -- <your-paths>
+  ```
+
+- `asset-manifest.json` is shared by every change. Include it in your commit only with your own entries and hash refreshes; if another contributor's uncommitted entries are present, coordinate rather than committing them.
+- Never use `git add .`, `git add -A`, or a bare `git commit` in a shared working tree. Leave unrelated staged files alone.
+- If `.git/index.lock` exists, another git operation is running; wait for it rather than deleting it. Never amend published commits or discard others' changes.

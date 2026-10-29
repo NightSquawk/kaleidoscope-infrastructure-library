@@ -1,0 +1,12 @@
+---
+description: "Preserve shared work and validate before an explicitly requested stash"
+alwaysApply: true
+---
+
+# Stash and validation gate
+
+- Never use `git stash` (including `push`, `save`, `-u`, `--keep-index`, or any wrapper) to isolate changes for validation or commits. It removes other contributors' work from the shared tree.
+- Validate with existing work present, or use an isolated checkout (`git worktree add`) when you need a clean tree. Do not reset, clean, or check out files to obtain a passing result.
+- A stash requires explicit user authorization for that specific stash. Before an authorized stash, run `python tooling/validate.py` and `python -m unittest discover -s tests -v`; this repository has no build step.
+- If either check fails, report the failure. Stashing the failing state needs authorization that covers the failure, and the stash must be labelled so it stays discoverable: `git stash push -m "BROKEN-VALIDATION: <reason> - authorized <date>"`.
+- Do not silently apply, pop, or drop someone else's stash. Preserve it and describe the recovery options.

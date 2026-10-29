@@ -2,6 +2,296 @@
   "schemaVersion": 1,
   "license": "CC0-1.0",
   "files": {
+    ".claude/rules/core-instructions.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "0d6534f9a6c17bb22d5f81c0d1d33442fd24c3a22d61ff7394728919519e86d3"
+    },
+    ".claude/rules/documentation-and-research.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "3f2eaa2287190d9839a54568ecfb88f1283c54e15a1155434a2b6589974da6f0"
+    },
+    ".claude/rules/git-commit-workflow.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "14f299eccbd671beaa3140dc6e3b08e55f9e25ff846413a5badcaf8ddb7c922e"
+    },
+    ".claude/rules/licensing-and-provenance.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "073f752f8c6d25c3dad16987427143e14ee2e6f4ddca4037608c1d4db0f3dbfe"
+    },
+    ".claude/rules/stash-build-gate.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "5c7730b8b373077d60457c04927476aca469bdedefbebb99f5ff88a741dfcb25"
+    },
+    ".claude/rules/template-data-contract.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "26d3d92fec598d3d56fab40daa04de9335a56fdde18c32c8b0df7b7a2b307460"
+    },
+    ".claude/rules/validation-and-evidence.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "74944489ee65bd17ac3c9e781020f507b30ee0ee5212664318fcd52b0b0a10a4"
+    },
+    ".codex/rules/core-instructions.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "0d6534f9a6c17bb22d5f81c0d1d33442fd24c3a22d61ff7394728919519e86d3"
+    },
+    ".codex/rules/documentation-and-research.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "3f2eaa2287190d9839a54568ecfb88f1283c54e15a1155434a2b6589974da6f0"
+    },
+    ".codex/rules/git-commit-workflow.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "14f299eccbd671beaa3140dc6e3b08e55f9e25ff846413a5badcaf8ddb7c922e"
+    },
+    ".codex/rules/licensing-and-provenance.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "073f752f8c6d25c3dad16987427143e14ee2e6f4ddca4037608c1d4db0f3dbfe"
+    },
+    ".codex/rules/stash-build-gate.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "5c7730b8b373077d60457c04927476aca469bdedefbebb99f5ff88a741dfcb25"
+    },
+    ".codex/rules/template-data-contract.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "26d3d92fec598d3d56fab40daa04de9335a56fdde18c32c8b0df7b7a2b307460"
+    },
+    ".codex/rules/validation-and-evidence.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "74944489ee65bd17ac3c9e781020f507b30ee0ee5212664318fcd52b0b0a10a4"
+    },
+    ".cursor/rules/core-instructions.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "0d6534f9a6c17bb22d5f81c0d1d33442fd24c3a22d61ff7394728919519e86d3"
+    },
+    ".cursor/rules/documentation-and-research.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "3f2eaa2287190d9839a54568ecfb88f1283c54e15a1155434a2b6589974da6f0"
+    },
+    ".cursor/rules/git-commit-workflow.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "14f299eccbd671beaa3140dc6e3b08e55f9e25ff846413a5badcaf8ddb7c922e"
+    },
+    ".cursor/rules/licensing-and-provenance.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "073f752f8c6d25c3dad16987427143e14ee2e6f4ddca4037608c1d4db0f3dbfe"
+    },
+    ".cursor/rules/stash-build-gate.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "5c7730b8b373077d60457c04927476aca469bdedefbebb99f5ff88a741dfcb25"
+    },
+    ".cursor/rules/template-data-contract.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "26d3d92fec598d3d56fab40daa04de9335a56fdde18c32c8b0df7b7a2b307460"
+    },
+    ".cursor/rules/validation-and-evidence.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "74944489ee65bd17ac3c9e781020f507b30ee0ee5212664318fcd52b0b0a10a4"
+    },
+    ".gemini/rules/core-instructions.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "0d6534f9a6c17bb22d5f81c0d1d33442fd24c3a22d61ff7394728919519e86d3"
+    },
+    ".gemini/rules/documentation-and-research.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "3f2eaa2287190d9839a54568ecfb88f1283c54e15a1155434a2b6589974da6f0"
+    },
+    ".gemini/rules/git-commit-workflow.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "14f299eccbd671beaa3140dc6e3b08e55f9e25ff846413a5badcaf8ddb7c922e"
+    },
+    ".gemini/rules/licensing-and-provenance.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "073f752f8c6d25c3dad16987427143e14ee2e6f4ddca4037608c1d4db0f3dbfe"
+    },
+    ".gemini/rules/stash-build-gate.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "5c7730b8b373077d60457c04927476aca469bdedefbebb99f5ff88a741dfcb25"
+    },
+    ".gemini/rules/template-data-contract.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "26d3d92fec598d3d56fab40daa04de9335a56fdde18c32c8b0df7b7a2b307460"
+    },
+    ".gemini/rules/validation-and-evidence.mdc": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "74944489ee65bd17ac3c9e781020f507b30ee0ee5212664318fcd52b0b0a10a4"
+    },
+    ".github/dependabot.yml": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "c5a3a973147b37a43a60e06c2f82241e7cc54d41fd9ba158029b8f3a7001a5fe"
+    },
     ".github/workflows/validate.yml": {
       "license": "Apache-2.0",
       "origin": "original",
@@ -22,6 +312,26 @@
       "notices": [],
       "sha256": "81af12476b3951a39f94707873626822d32d9cba1efd1e57bacd1ec8cd2120b2"
     },
+    "AGENTS.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "8b5679b8a0e92432c3069c55f51f26f17d2283be8bf734ac4aa12141898cd5a3"
+    },
+    "CLAUDE.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "8b5679b8a0e92432c3069c55f51f26f17d2283be8bf734ac4aa12141898cd5a3"
+    },
     "CONTRIBUTING.md": {
       "license": "Apache-2.0",
       "origin": "original",
@@ -30,7 +340,17 @@
       "copyright": "Kaleidoscope Infrastructure Library contributors",
       "modifications": "original creation",
       "notices": [],
-      "sha256": "bdf5ba98710f4ff2d54aea261609b4569e0d563738ecd9aad3e36aa4617e9097"
+      "sha256": "f6b6bf7c97e21d72e81a230839c6abda911dbaec61b158363a96fd5b1c41ade8"
+    },
+    "GEMINI.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "8b5679b8a0e92432c3069c55f51f26f17d2283be8bf734ac4aa12141898cd5a3"
     },
     "LICENSE": {
       "license": "Apache-2.0",
@@ -351,6 +671,16 @@
       "modifications": "original creation",
       "notices": [],
       "sha256": "97eade86c2b54683bf473a7e39a4ca3233d1c43126c05336668142a12be4cd8d"
+    },
+    "docs/DEVELOPMENT.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "agent-rules-2026-10-29",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "ebc185cfa05b0bc05dfe615743a59cf82831d8d4fa2eef7dfdf0f09311d89dd0"
     },
     "policy/licenses.json": {
       "license": "Apache-2.0",

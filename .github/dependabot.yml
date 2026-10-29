@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # The tooling is standard-library Python, so GitHub Actions are the only dependencies.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "develop"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    groups:
+      actions:
+        patterns: ["*"]

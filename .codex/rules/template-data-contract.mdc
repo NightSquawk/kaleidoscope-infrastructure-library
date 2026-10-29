@@ -1,0 +1,31 @@
+---
+description: "Device templates, ports, connectors, and artwork geometry"
+alwaysApply: true
+---
+
+# Template data contract
+
+## Device templates
+
+- One JSON template per device in `catalog/kaleidoscope/CC0-1.0/devices/<id>.json`; the filename equals `id`, and IDs are unique across the catalog. `schemaVersion` is `1`.
+- `accuracy` is `illustrative` unless the layout was checked against the real device or manufacturer documentation. `verified` requires an `evidence` record (model, revision or SKU, source, and date). Do not use real manufacturer and model names on illustrative templates.
+- Dimensions are millimetres (`widthMm`, `depthMm`, `heightMm`) and are separate from `heightU`. `heightU` is a non-negative multiple of 0.5. A 0U device has physical height, uses `mounting: vertical-0u`, and consumes no rack units.
+- Every template defines `front` and `rear` faces. An empty rear face means "not drawn", not "no ports"; say so in the description when it matters.
+- Hardware that differs (another port count, PSU, or module) gets a distinct template ID, or a module variant once that schema exists. Never repurpose an existing ID for different hardware.
+
+## Ports
+
+- Port IDs are stable keys that the platform and saved rack layouts depend on. Do not rename, renumber, or reorder IDs in a published template; add a new template instead.
+- Each port has `id`, `label`, `connector`, `role`, `face`, and face-local `bounds`. Connectors come from `catalog/kaleidoscope/CC0-1.0/connectors.json`; roles are `network`, `power`, `video`, `usb`, `pass-through`, or `console`.
+- Bounds sit inside the face `viewBox` and do not overlap on the same face. Never derive physical placement from interface names or SNMP indexes.
+
+## Artwork
+
+- Faceplate SVGs use a 1000-unit-wide `viewBox` starting at `0 0` (vertical 0U devices use a tall one), and the template's `viewBox` must equal the SVG's exactly.
+- Faceplates are static backgrounds: no permanent health or status colours, and no baked-in connector glyphs where the preview inserts them at runtime.
+- SVGs may only use `svg`, `title`, `desc`, `g`, `rect`, `circle`, `ellipse`, `path`, `line`, `polyline`, `polygon`, and `text`. No scripts, event handlers, `href`/`xlink:href`, `url(...)`, DOCTYPE, or entities. Keep files hand-readable; strip editor metadata before committing.
+
+## Changing the contract
+
+- Change the validator, schema, templates, tests, preview, and documentation together when the contract changes. A new key the validator ignores is not supported; local validation does not prove that the platform renders or imports it.
+- Breaking changes (renamed keys, new required fields, changed units) need a `schemaVersion` bump and a migration note in the pull request.
