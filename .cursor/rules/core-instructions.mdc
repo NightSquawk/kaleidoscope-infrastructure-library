@@ -1,0 +1,15 @@
+---
+description: "Core behavior and repository boundaries"
+alwaysApply: true
+---
+
+# Core instructions
+
+- Read `README.md`, `CONTRIBUTING.md`, `LICENSING.md`, and the relevant source before editing. Make focused changes and reuse the existing tooling instead of adding parallel scripts.
+- This repository publishes reusable hardware definitions, original artwork, connector drawings, and the tooling that validates and packages them. Rendering, rack placement, live port state, tenant inventory, and UI behavior belong to the Kaleidoscope platform.
+- Keep the catalog layers distinct: Kaleidoscope-authored templates under `catalog/kaleidoscope/`, byte-preserved imports under `catalog/upstream/<source>/`, original artwork under `artwork/kaleidoscope/`, and third-party artwork under `artwork/third-party/<source>/<SPDX-license>/`. Never merge an upstream file into an authored one or edit it in place.
+- `tooling/validate.py` is the executable contract. `schemas/device-template.schema.json` describes the shape but is not enforced by CI. Report any disagreement between the schema, validator, docs, and data rather than assuming one proves the others.
+- Use Python 3.11+ with the standard library only, matching CI (3.12). There is no package manager, build step, database, or deployment command. Do not add runtime dependencies without a coordinated decision.
+- Do not invent manufacturer measurements, port order, module options, device testing, successful commands, or licensing permission. Separate observed results from assumptions, and keep unverified layouts marked `illustrative`.
+- If delegating work, pass the task boundaries and the applicable rules to the agent; subagents do not inherit them. Coordinate ownership of shared files, especially `asset-manifest.json`.
+- This is a public repository. Keep credentials, customer names, real rack layouts, IP addresses, serial numbers, production telemetry, and machine-specific paths out of every file, including commit messages and PR descriptions.

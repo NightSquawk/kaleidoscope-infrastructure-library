@@ -1,0 +1,14 @@
+---
+description: "Per-file licensing, provenance, upstream imports, and the asset manifest"
+alwaysApply: true
+---
+
+# Licensing and provenance
+
+- `asset-manifest.json` is authoritative for every distributed file. Folder names help navigation; they do not license anything. Every file in the repository (except `.git`, `dist`, `__pycache__`, and the manifest itself) must have an entry, including agent rule files and workflow files.
+- Catalog data and original artwork are CC0-1.0. Tooling, schemas, tests, workflows, documentation, and agent rules are Apache-2.0. Only licenses listed in `policy/licenses.json` may ship; adding one is a reviewed policy change with its license text, notices, and obligations, not a manifest edit.
+- Each entry records `license`, `origin` (`original`, `upstream`, or `license-text`), `source`, `revision`, `copyright`, `modifications`, `notices`, and `sha256`. Upstream entries need an `https://` source and a pinned 40-character commit.
+- Register new or removed files in the manifest by hand first, then run `python tooling/refresh_hashes.py` and review the manifest diff. Refreshing is a deliberate act: never refresh hashes to silence a checksum mismatch you did not cause, and CI never refreshes them.
+- Upstream imports (for example NetBox device types) stay byte-for-byte under `catalog/upstream/<source>/<SPDX-license>/`, with their commit and checksums in that folder's `provenance.json`. Put Kaleidoscope additions in separate files.
+- No manufacturer imagery, logos, or photos without documented redistribution permission. Third-party artwork needs `rightsEvidence`, attribution, and any required notices in its manifest entry. Public availability is not permission.
+- Contributors must own what they submit or document permission. CC0 does not waive trademark rights or imply vendor endorsement; avoid vendor marks in original artwork.

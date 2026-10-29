@@ -1,0 +1,23 @@
+---
+description: "Checks and evidence proportionate to the change"
+alwaysApply: true
+---
+
+# Validation and evidence
+
+- Baseline, from the repository root, matching CI:
+
+  ```bash
+  python tooling/validate.py
+  python -m unittest discover -s tests -v
+  python tooling/preview.py
+  python tooling/release.py
+  ```
+
+- Template or artwork changes: run all four, then open `dist/preview.html` and inspect each changed face, port position, and port selection. If you could not open a browser, say the visual check was not done.
+- Validator, schema, or tooling changes: add a regression test in `tests/` for the new rule or reproduced defect, and confirm a deliberately broken fixture fails for the right reason.
+- Licensing or upstream changes: confirm manifest coverage, checksums, `provenance.json`, and that the release archive contains the license texts and notices.
+- Documentation or rule changes: check referenced paths and commands exist, keep the rule mirrors identical, and run the validator (rule files are manifest entries too).
+- `PASS` from the validator proves licensing, checksums, SVG safety, and geometry constraints. It does not prove dimensions match real hardware, that the platform renders the template, or that a layout is correct.
+- Use these phrases when reporting: **validated** (checks passed), **previewed** (inspected in a browser), **verified against hardware/documentation** (with the source). Never claim a stronger state than the evidence supports.
+- Record the commands, results, and checks not run with the reason. Finish by reviewing the diff for unrelated changes, generated `dist/` output, private data, and unsupported claims.

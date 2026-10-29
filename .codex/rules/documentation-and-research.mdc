@@ -1,0 +1,14 @@
+---
+description: "Source-backed decisions, document ownership, and change notes"
+alwaysApply: true
+---
+
+# Documentation and research
+
+- Use local source, the validator, tests, and CI as evidence of repository behavior. For unfamiliar library or format details (SVG, JSON Schema, NetBox device types), consult version-appropriate primary documentation; use Context7 when it is available, otherwise official docs. Never assume a project MCP server is installed.
+- Each fact has one owning document: `README.md` for purpose, contents, and how to run; `CONTRIBUTING.md` for submissions; `LICENSING.md` for licensing boundaries; `docs/DEVELOPMENT.md` for engineering process and the adaptation record. Update the owner instead of repeating the fact elsewhere.
+- Describe coverage precisely. Separate illustrative from verified layouts, local validation from platform support, and planned milestones from shipped features.
+- A pull request explains the problem, the resulting data or behavior, affected devices or connectors, provenance and evidence, the checks run, and any compatibility impact on saved layouts (port IDs, schema version). Avoid vague "improvements".
+- There is no changelog until the first tagged release. From then on, `CHANGELOG.md` is written at release time on `main` from `git log <previous-tag>..<new-tag> --no-merges`, grouped into Added / Changed / Fixed, and limited to changes a library consumer would notice. Do not invent release history.
+- Keep the agent rule mirrors synchronized and record deliberate departures from the platform's rules in `docs/DEVELOPMENT.md`. Platform rules are reference material, not a reason to add platform-only commands or policies here.
+- Do not copy private MCP settings, global hooks, machine paths, or client billing attribution into this public repository. Any activity-logging policy that applies to the person doing the work is followed outside the repository.

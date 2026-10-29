@@ -9,4 +9,6 @@ Submit reusable hardware data and original artwork under CC0-1.0; software and d
 5. Register every new file in asset-manifest.json, refresh intended hashes, run validation and tests, regenerate the preview and inspect it.
 6. Do not include real customer infrastructure or telemetry.
 
+Branch from `develop` and open pull requests against `develop`; `main` changes only when a release is cut. Keep one device family, connector set or upstream import per pull request. Development checks and agent rules are described in docs/DEVELOPMENT.md and AGENTS.md.
+
 Use generic fallback artwork while exact layouts are unverified. This starter does not yet provide a graphical template editor or automatic upstream synchronization.
