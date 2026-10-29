@@ -1,0 +1,10 @@
+{
+  "rj45": "artwork/kaleidoscope/CC0-1.0/connectors/rj45.svg",
+  "sfp": "artwork/kaleidoscope/CC0-1.0/connectors/sfp.svg",
+  "usb-a": "artwork/kaleidoscope/CC0-1.0/connectors/usb-a.svg",
+  "usb-c": "artwork/kaleidoscope/CC0-1.0/connectors/usb-c.svg",
+  "vga": "artwork/kaleidoscope/CC0-1.0/connectors/vga.svg",
+  "hdmi": "artwork/kaleidoscope/CC0-1.0/connectors/hdmi.svg",
+  "iec-c14": "artwork/kaleidoscope/CC0-1.0/connectors/iec-c14.svg",
+  "iec-c13": "artwork/kaleidoscope/CC0-1.0/connectors/iec-c13.svg"
+}

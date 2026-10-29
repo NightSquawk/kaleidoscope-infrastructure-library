@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "license": "CC0-1.0",
+  "files": {
+    ".github/workflows/validate.yml": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "02c6f8e35be76eb71855b522d0590052314114cbd977cfe81d36cf5cae85d6d5"
+    },
+    ".gitignore": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "81af12476b3951a39f94707873626822d32d9cba1efd1e57bacd1ec8cd2120b2"
+    },
+    "CONTRIBUTING.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "bdf5ba98710f4ff2d54aea261609b4569e0d563738ecd9aad3e36aa4617e9097"
+    },
+    "LICENSE": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "de629c275fb6723822f3cdfd9af5d86b98ffad893fd17be91160d3a23b3bc20f"
+    },
+    "LICENSES/Apache-2.0.txt": {
+      "license": "Apache-2.0",
+      "origin": "license-text",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "LICENSES/CC0-1.0.txt": {
+      "license": "CC0-1.0",
+      "origin": "license-text",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673"
+    },
+    "LICENSING.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "aae3236e90493c45e82baae392fa7d5e6441f948981a134713e4cf781a4b0382"
+    },
+    "README.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "41ac3ec52f707cbb4bd033ad700ab0f72cd7979a2305ea7bfa3ea701c39f68ee"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/hdmi.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "e413eae16f8a2446f3fc55c8ddf336aa9e2a7121842fea91922753e277a3fac8"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/iec-c13.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "ed7a74a9bac4a2a72053685521e93251ad2b44255da4a5fe7f3abca7148f78ed"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/iec-c14.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "e4a88b64ca01757f6eb85828f64f5b755190780e57003c39deebab39be8b1d1b"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/rj45.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "c72440191a3204eff4c98761e0919cbcffbeb0acefd6a5448de27486e57d0d30"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/sfp.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "652ea54c422174dabad1f4cfac787ca877c7cee6ebf9c936cc5da2b8dc00bc7d"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/usb-a.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "d0cfa00c370fba9f7f61dd63c7711ea1298c8a177d7bd9822ee5f32b484384c3"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/usb-c.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "700793889f6be907ce9f034dd7566bc84c0d5b86fe8d645f6e842c319d4170b6"
+    },
+    "artwork/kaleidoscope/CC0-1.0/connectors/vga.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "bd1b0e48b98167dceb7a70c5740ae5f7e912e72461f41fe9287bcaba712605cb"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/patch-panel-24/front.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "9d7e3941d1b4e79baffe32f17ba6fe9af13897bf75ea748c6c722225cc5433ac"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/patch-panel-24/rear.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "1904b5fa3ef68e15abc1ad226d8b1f0f6666505f6f20184bd74b59f003075e1c"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/pdu-0u/front.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "f8ffd4bdae4482a546d0e3fc4d779cd563d4964fe212315d01e720cc83572de3"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/pdu-0u/rear.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "5267350d0af292f38be69f8a647fde067435c5804493cabd4179b2f8481839ae"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/server-2u/front.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "2bf05635ed85ad11c8cfe21d0f3738e2700209d33e0cf0242d81dbea453e55b4"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/server-2u/rear.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "43d36d899028c1946e9efdaecffb8593cf5e182b4fc348cde1fe06fd491b5d55"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/switch-24/front.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "158a7c5f8697f4f9613ba7e85eb4f5c3d34e769a09a9adec5a9614d6d0103975"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/switch-24/rear.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "28e042802e754984d1d2fe9a1acab6087a9e6d640d4fafee464999dc6873ac9d"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/ups-2u/front.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "9b110d5f7fcc6149cc83ade4f3d529a050b46d38487c09f336d86c9bc66542a5"
+    },
+    "artwork/kaleidoscope/CC0-1.0/devices/ups-2u/rear.svg": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "a7f5c1e9786c7be591bc4e2f60af7634444f7ad29d74d4406afb8ae5d5182e4a"
+    },
+    "artwork/third-party/README.md": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "5806c2af92002a2c7f7f036be42e43b9dad22b9a773bd0bc2703a420a25db1fb"
+    },
+    "catalog/kaleidoscope/CC0-1.0/connectors.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "72db8cde862a73dcf926f53de74e088001be3ac367e9ecda5084061e7f33c0c2"
+    },
+    "catalog/kaleidoscope/CC0-1.0/devices/generic-patch-panel-24.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "d098533dd518e44410b512ee743d2926d00a2efe56b41d008d0fcdc78abd84f3"
+    },
+    "catalog/kaleidoscope/CC0-1.0/devices/generic-pdu-0u.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "8f45bf33a470241006905a4bd7f5b48412c9d934a7171d3d0fcf2828dbf1fe61"
+    },
+    "catalog/kaleidoscope/CC0-1.0/devices/generic-server-2u.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "c70901b9618d6f94cea9bad677a699d3c48fd4f2f2be6f11faf1c35773545c02"
+    },
+    "catalog/kaleidoscope/CC0-1.0/devices/generic-switch-24.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "e58011a55c24e1100b2b2a99730d2eac9af4976c2bc7f8670d5e1ca938c5eb3a"
+    },
+    "catalog/kaleidoscope/CC0-1.0/devices/generic-ups-2u.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "f724bb6c4d06c59d0d49ee6c891f928d7cfe405eaec3ebb1f9e36270ab110a1e"
+    },
+    "catalog/upstream/netbox/CC0-1.0/device-types/Dell/PowerEdge-R750.yml": {
+      "license": "CC0-1.0",
+      "origin": "upstream",
+      "source": "https://github.com/netbox-community/devicetype-library/blob/4a87296236ab01f624b42de578a5f7720d0255fe/device-types/Dell/PowerEdge-R750.yml",
+      "revision": "4a87296236ab01f624b42de578a5f7720d0255fe",
+      "copyright": "NetBox community contributors",
+      "modifications": "none",
+      "notices": [],
+      "sha256": "7ed3b1e755189b9550c08466f732c2f0a140adbe6ce9e60af65528ae1d602cd9"
+    },
+    "catalog/upstream/netbox/CC0-1.0/provenance.json": {
+      "license": "CC0-1.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "97eade86c2b54683bf473a7e39a4ca3233d1c43126c05336668142a12be4cd8d"
+    },
+    "policy/licenses.json": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "7ee7b3fd09bf492663ec8f3d8858c8e2db4c338814b731e2ff71ebf696c007b2"
+    },
+    "schemas/device-template.schema.json": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "870e2cb39e727f3dbfbab958c97142d2ddd0f3250a842768537ccc2a232137ff"
+    },
+    "tests/test_validation.py": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "a89e64cfe247a05ebb7abfc776e73aebc6e4cfabce770edee56c27dfd232d2e4"
+    },
+    "tooling/preview.py": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "d0c1d9afb57fb824593026192a6584a1dbcec6a0318b825d5cf1daaafadab4df"
+    },
+    "tooling/refresh_hashes.py": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "497cbad292c069627ebc055bdc6a7e45f059b350f64549038f8349161499888b"
+    },
+    "tooling/release.py": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "26d3843fa845e0a7fe861110a472b18c7fcbbfb53e1da3d1832ecc69ad0db061"
+    },
+    "tooling/validate.py": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "starter-v0.1.0",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "a7657a0c4f4e4e31cfdd8bcb31f4c94270eae552fa60e61f14a13d669231d24a"
+    }
+  }
+}

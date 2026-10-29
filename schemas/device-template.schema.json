@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kaleidoscope device template v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "accuracy",
+    "license",
+    "dimensions",
+    "mounting",
+    "faces",
+    "ports"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accuracy": {
+      "enum": [
+        "illustrative",
+        "verified"
+      ]
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mounting": {
+      "enum": [
+        "rack",
+        "vertical-0u"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "heightU",
+        "heightMm",
+        "widthMm",
+        "depthMm"
+      ],
+      "properties": {
+        "heightU": {
+          "type": "number",
+          "minimum": 0,
+          "multipleOf": 0.5
+        },
+        "widthMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "heightMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "depthMm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "faces": {
+      "type": "object",
+      "required": [
+        "front",
+        "rear"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "artwork",
+          "viewBox"
+        ],
+        "properties": {
+          "artwork": {
+            "type": "string"
+          },
+          "viewBox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        }
+      }
+    },
+    "ports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "connector",
+          "role",
+          "face",
+          "bounds"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string"
+          },
+          "connector": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "network",
+              "power",
+              "video",
+              "usb",
+              "pass-through",
+              "console"
+            ]
+          },
+          "face": {
+            "enum": [
+              "front",
+              "rear"
+            ]
+          },
+          "bounds": {
+            "type": "object",
+            "required": [
+              "x",
+              "y",
+              "width",
+              "height"
+            ],
+            "properties": {
+              "x": {
+                "type": "number",
+                "minimum": 0
+              },
+              "y": {
+                "type": "number",
+                "minimum": 0
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "height": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

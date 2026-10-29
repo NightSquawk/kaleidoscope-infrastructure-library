@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "id": "generic-switch-24",
+  "name": "Generic 24-port switch",
+  "accuracy": "illustrative",
+  "license": "CC0-1.0",
+  "dimensions": {
+    "heightU": 1,
+    "widthMm": 482.6,
+    "depthMm": 350,
+    "heightMm": 44.45
+  },
+  "mounting": "rack",
+  "faces": {
+    "front": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/switch-24/front.svg",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        100
+      ]
+    },
+    "rear": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/switch-24/rear.svg",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        100
+      ]
+    }
+  },
+  "ports": [
+    {
+      "id": "P01",
+      "label": "P01",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 55,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P02",
+      "label": "P02",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 127,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P03",
+      "label": "P03",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 199,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P04",
+      "label": "P04",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 271,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P05",
+      "label": "P05",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 343,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P06",
+      "label": "P06",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 415,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P07",
+      "label": "P07",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 487,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P08",
+      "label": "P08",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 559,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P09",
+      "label": "P09",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 631,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P10",
+      "label": "P10",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 703,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P11",
+      "label": "P11",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 775,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P12",
+      "label": "P12",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 847,
+        "y": 10,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P13",
+      "label": "P13",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 55,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P14",
+      "label": "P14",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 127,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P15",
+      "label": "P15",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 199,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P16",
+      "label": "P16",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 271,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P17",
+      "label": "P17",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 343,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P18",
+      "label": "P18",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 415,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P19",
+      "label": "P19",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 487,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P20",
+      "label": "P20",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 559,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P21",
+      "label": "P21",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 631,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P22",
+      "label": "P22",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 703,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P23",
+      "label": "P23",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 775,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "P24",
+      "label": "P24",
+      "connector": "rj45",
+      "role": "network",
+      "face": "front",
+      "bounds": {
+        "x": 847,
+        "y": 53,
+        "width": 44,
+        "height": 26
+      }
+    },
+    {
+      "id": "POWER",
+      "label": "POWER",
+      "connector": "iec-c14",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 840,
+        "y": 30,
+        "width": 60,
+        "height": 36
+      }
+    }
+  ]
+}

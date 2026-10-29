@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/netbox-community/devicetype-library",
+  "revision": "4a87296236ab01f624b42de578a5f7720d0255fe",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "device-types/Dell/PowerEdge-R750.yml",
+      "sha256": "7ed3b1e755189b9550c08466f732c2f0a140adbe6ce9e60af65528ae1d602cd9",
+      "modifications": "none"
+    }
+  ],
+  "imagesImported": false
+}

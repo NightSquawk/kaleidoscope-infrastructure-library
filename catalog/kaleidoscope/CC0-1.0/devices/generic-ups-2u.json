@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "generic-ups-2u",
+  "name": "Generic 2U UPS",
+  "accuracy": "illustrative",
+  "license": "CC0-1.0",
+  "dimensions": {
+    "heightU": 2,
+    "widthMm": 482.6,
+    "depthMm": 600,
+    "heightMm": 88.9
+  },
+  "mounting": "rack",
+  "faces": {
+    "front": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/ups-2u/front.svg",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        180
+      ]
+    },
+    "rear": {
+      "artwork": "artwork/kaleidoscope/CC0-1.0/devices/ups-2u/rear.svg",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        180
+      ]
+    }
+  },
+  "ports": [
+    {
+      "id": "INPUT",
+      "label": "INPUT",
+      "connector": "iec-c14",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 100,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "OUT-1",
+      "label": "OUT-1",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 250,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "OUT-2",
+      "label": "OUT-2",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 340,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "OUT-3",
+      "label": "OUT-3",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 430,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "OUT-4",
+      "label": "OUT-4",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 520,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "OUT-5",
+      "label": "OUT-5",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 610,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    },
+    {
+      "id": "OUT-6",
+      "label": "OUT-6",
+      "connector": "iec-c13",
+      "role": "power",
+      "face": "rear",
+      "bounds": {
+        "x": 700,
+        "y": 60,
+        "width": 60,
+        "height": 36
+      }
+    }
+  ]
+}
