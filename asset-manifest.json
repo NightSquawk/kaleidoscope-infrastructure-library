@@ -300,7 +300,7 @@
       "copyright": "Kaleidoscope Infrastructure Library contributors",
       "modifications": "original creation",
       "notices": [],
-      "sha256": "02c6f8e35be76eb71855b522d0590052314114cbd977cfe81d36cf5cae85d6d5"
+      "sha256": "f98be2e0615579d31329f6714072126b542d35f5b1cd324f28bcff113c0e38ec"
     },
     ".gitignore": {
       "license": "Apache-2.0",
@@ -751,6 +751,16 @@
       "modifications": "original creation",
       "notices": [],
       "sha256": "a7657a0c4f4e4e31cfdd8bcb31f4c94270eae552fa60e61f14a13d669231d24a"
+    },
+    ".github/CODEOWNERS": {
+      "license": "Apache-2.0",
+      "origin": "original",
+      "source": "Kaleidoscope Infrastructure Library project contribution",
+      "revision": "public-repo-security-2026-11-09",
+      "copyright": "Kaleidoscope Infrastructure Library contributors",
+      "modifications": "original creation",
+      "notices": [],
+      "sha256": "08aba398cc929e42bdf4a77fc7fbd7982a5bfef27007c43af44a4bbe91ee11eb"
     }
   }
 }
